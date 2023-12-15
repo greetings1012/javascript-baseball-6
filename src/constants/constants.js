@@ -1,10 +1,10 @@
 const ERROR_MESSAGE = {
-    
+        
     WRONG_NUMBER_TYPE: `[ERROR] 숫자 형식을 다시 확인하세요.`,
 
     WRONG_NUMBER_DIGIT: `[ERROR] 숫자는 3자리의 양수로 입력해야 합니다.`,
 
-    WRONG_NUMBER_SIGN: `[ERROR] 숫자는 양수로 입력해야 합니다`
+       WRONG_NUMBER_SIGN: `[ERROR] 숫자는 양수로 입력해야 합니다`
 }
 
 const INPUTVIEW_MESSAGE = {
@@ -22,13 +22,13 @@ const OUTPUTVIEW_MESSAGE = {
 
     STRIKE: `스트라이크`,
 
-    NOTHING: `낫싱`,
+     NOTHING: `낫싱`,
 
     GAME_END: `3개의 숫자를 모두 맞히셨습니다! 게임 종료`
 }
 
-export default {
+export {
     ERROR_MESSAGE,
     INPUTVIEW_MESSAGE,
     OUTPUTVIEW_MESSAGE
-}
+};
