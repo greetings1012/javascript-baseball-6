@@ -10,6 +10,8 @@ const ERROR_MESSAGE = {
 const INPUTVIEW_MESSAGE = {
 
     GET_NUMBER: `숫자를 입력해주세요 : `,
+
+    ASK_RETRY: `게임을 새로 시작하려면 1, 종료하려면 2를 입력하세요.`
 }
 
 const OUTPUTVIEW_MESSAGE = {
@@ -22,7 +24,11 @@ const OUTPUTVIEW_MESSAGE = {
 
     NOTHING: `낫싱`,
 
-    GAME_END: `3개의 숫자를 모두 맞히셨습니다! 게임 종료`,
+    GAME_END: `3개의 숫자를 모두 맞히셨습니다! 게임 종료`
+}
 
-    ASK_RETRY: `게임을 새로 시작하려면 1, 종료하려면 2를 입력하세요.`
+export default {
+    ERROR_MESSAGE,
+    INPUTVIEW_MESSAGE,
+    OUTPUTVIEW_MESSAGE
 }
